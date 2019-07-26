@@ -1,18 +1,18 @@
 ---
-title: "Jane 主题预览"
-date: 2018-03-06T16:01:23+08:00
-lastmod: 2018-03-07T16:01:23+08:00
+title: "docker的基本架构"
+date: 2019-07-06T16:01:23+08:00
+lastmod: 2019-07-07T16:01:23+08:00
 draft: false
-tags: ["preview", "shortcodes", "tag-6"]
-categories: ["shortcodes", "index"]
+tags: ["docker","golang"]
+categories: ["docker"]
 author: "jackyang"
 
 weight: 1
-
+comment: true 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 # comment: false
-# toc: false
+# toc: false    
 
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: '<a href="https://github.com/gohugoio/hugoBasicExample" rel="noopener" target="_blank">See origin</a>'
@@ -20,4 +20,12 @@ contentCopyright: '<a href="https://github.com/gohugoio/hugoBasicExample" rel="n
 mathjax: true
 ---
 
-主题预览,内容有待填充。
+>  docker 基础
+
+docker 的基本功能使用,以及原理
+
+## 目录
+
+- docker client
+- docker damegn  
+- docker graphe

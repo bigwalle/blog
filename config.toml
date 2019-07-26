@@ -2,8 +2,8 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://localhost:1313/"
-title = "Jane - A super concise theme for Hugo"
+baseURL = "https://welcome112s.github.io/"
+title = "jack's website"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -58,7 +58,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   since = "2019"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Othewise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
-
+  gitRepo = "https://github.com/welcome112s/blog"
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "jack's website"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","jane"]
@@ -80,6 +80,16 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   customCSS = ['custom.css']            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = ['custom.js']             # if ['custom.js'], load '/static/js/custom.js' file
 
+[params.utterancs]           # https://github.com/utterance/utterances 评论插件
+    enable = true
+    repo = "welcome112s/blog"
+
+[params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
+    enable = true
+    siteUV = true
+    sitePV = true
+    pagePV = true
+
   [params.reward]                                         # 文章打赏
     enable = true
     wechat = "/wechat-qr-code.jpg"           # 微信二维码
@@ -87,8 +97,10 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
   [params.social]                                         # 社交链接
     a-email = "mailto:292545811@qq.com"
-    b-stack-overflow = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-
+    g-github = "https://github.com/welcome112s"
+    h-weibo = "#"
+    n-gitlab = "https://github.com/welcome112s"
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true      # 12.214.31.144 -> 12.214.31.0
+  [privacy.youtube]
